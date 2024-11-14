@@ -46,5 +46,5 @@ var hexa_decimal = 0xff;
 console.log(hexa_decimal);
 
 //Octal Number:
-var octal_num = 0756;
+var octal_num = 0o756;
 console.log(octal_num);
