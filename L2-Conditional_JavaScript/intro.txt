@@ -1,0 +1,6 @@
+Conditional Operation is the important things in any programming languages. In this chapter we'll learn about conditional statement and about Logic implementation:
+1. If condition -> It works base the condition either true or false;
+2. Else condition -> when you ensure that the task won't be greater then two, then use if else condition;
+3. Else If -> If the task going up to two or more then use else if condition;
+4. Nested If Else -> Sometimes we need to work with complex logic and condition then we'll used nested if else.
+5. AND or OR shorthand -> It'll use to inline condition implementation;
