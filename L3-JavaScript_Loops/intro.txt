@@ -1,0 +1,9 @@
+//Loops: To complete multiple task in a moment and reduce the duplicity of code and make code more efficient and reduced the repetitive tasks.
+
+//Loops are in JS: i) For Loop, ii) While Loop &  iii) Do While Loop;
+
+// i) For loop has for keyword to use this keyword you can declare a for block statement and it have 3 conditional statement in it: i)Initialization, ii) Condition & ii) Increment/Decrement;
+
+// ii) While have 1 conditional statement tht ensure the condition if the condition true while loop let you in.
+
+// iii) Do While loop at first execute one statement from Do block and then checked the condition from the While block.
