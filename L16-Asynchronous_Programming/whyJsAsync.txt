@@ -1,0 +1,8 @@
+//Why JavaScript Act like Asynchronous?
+:- JavaScript is a single threaded programming language and that's why js act/work like asynchronous; In JS the Heap & Stack data structures are work for variable declaration and manage function calls, where call-stack manage function calls and Heap manage variables declarations;
+
+JS engine behind the scene manage the asynchronous task using this below mechanism to act like asynchronous:
+i) Call Stack;
+ii) Web API's;
+iii) Event Loop;
+iv) Callback Queue;

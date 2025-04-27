@@ -1,0 +1,33 @@
+//What is Synchronous Programming?
+:- Existing or Occurring at the same time - In details, Synchronous programming means that you can execute one thing at a time.
+- We know in Js the code is execute line by line, this is the Synchronous system;
+:example of Synchronous code:
+let a = "Synchronous Code";
+console.log(a);
+
+let b = "This is Line two";
+console.log(b);
+
+let result = getDataFromStorage(DB-url);
+if (result.response) {
+  console.log("Data Collected!");
+} else {
+  console.log("Data Not Found!");
+}
+
+//What is Asynchronous Programming?
+:- Not existing or occurring at the same time - In details, Asynchronous programming means that you can execute multiple thing at a time and you don't have to finish the current execute thing to move on to the next one.
+
+:example of Asynchronous code:
+let a = "Synchronous Code";
+console.log(a);
+
+let b = "This is Line two";
+console.log(b);
+
+let result = getDataFromStorage(DB-url);
+if (result.response) {
+  console.log("Data Collected!");
+} else {
+  console.log("Data Not Found!");
+}
