@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Event</title>
+    <link rel="stylesheet" href="event.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>DOM - Manipulation</h1>
+
+      <div class="item-container">
+        <ul id="list">
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+          <li>Item Four</li>
+        </ul>
+      </div>
+
+      <div class="name-form">
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" id="name" placeholder="Write your name" />
+        <p id="show-name"></p>
+      </div>
+
+      <div class="skills-container">
+        <h3>Your Programming Skills:</h3>
+        <div class="skill-form">
+          <label for="c">
+            <input type="checkbox" name="skills" id="c" value="C Programming" /> C Programming
+          </label>
+          <label for="c++">
+            <input type="checkbox" name="skills" id="c++" value="C++ Programming" /> C++ Programming
+          </label>
+          <label for="java">
+            <input type="checkbox" name="skills" id="java" value="Java" /> Java
+          </label>
+          <label for="javascript">
+            <input type="checkbox" name="skills" id="javascript" value="JavaScript" /> JavaScript
+          </label>
+          <label for="node.js">
+            <input type="checkbox" name="skills" id="node.js" value="Node.Js" /> Node.Js
+          </label>
+          <label for="react.js">
+            <input type="checkbox" name="skills" id="react.js" value="React.Js" /> React.Js
+          </label>
+          <div class="selected-skills">
+            <p>Your selected skills: <span id="show-skills"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="event2.js"></script>
+  </body>
+</html>

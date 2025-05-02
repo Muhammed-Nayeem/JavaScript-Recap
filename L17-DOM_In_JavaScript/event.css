@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.container h1 {
+  margin-bottom: 40px;
+}
+
+.item-container {
+  margin-bottom: 40px;
+  margin-right: 0;
+}
+
+.item-container #list {
+  list-style-type: none;
+}
+
+.item-container #list li {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.item-container #add-btn {
+  margin: 20px 0;
+  background-color: green;
+  color: white;
+  border: 0;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#box-container {
+  background-color: lightblue;
+  max-width: 600px;
+  height: 100px;
+  border-radius: 3px;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+#box-container p {
+  color: green;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+/*Event Two CSS:*/
+.name-form {
+  width: 100%;
+}
+
+.name-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name-form input {
+  width: 100%;
+  padding: 10px 8px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.name-form p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.skills-container {
+  margin-top: 80px;
+}
+
+.skills-container h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.skill-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.selected-skills {
+  margin-top: 20px;
+}
+
+.selected-skills p {
+  font-size: 18px;
+  font-style: oblique;
+}

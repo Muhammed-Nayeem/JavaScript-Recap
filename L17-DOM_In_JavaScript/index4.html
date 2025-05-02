@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Handling</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form id="form">
+          <div class="form-control">
+            <label for="name">What is your full-name?</label>
+            <input type="text" name="name" id="name" placeholder="Mr. X" />
+          </div>
+          <div class="form-control">
+            <label for="email">Write your email here?</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com" />
+          </div>
+          <div class="form-control">
+            <label for="password">Write your password here?</label>
+            <input type="password" name="password" id="password" placeholder="write your name here" />
+          </div>
+          <div class="form-control">
+            <label for="subject">Write your subject line here?</label>
+            <input type="text" name="subject" id="subject" placeholder="write your subject here" />
+          </div>
+          <div class="form-control">
+            <label for="country">Select your country?</label>
+            <select name="country" id="country">
+              <option value="">Select Your Country</option>
+              <option value="bangladesh">Bangladesh</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="palestine">Palestine</option>
+              <option value="turkey">Turkey</option>
+              <option value="uzbekistan">Uzbekistan</option>
+            </select>
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="form.js"></script>
+  </body>
+</html>

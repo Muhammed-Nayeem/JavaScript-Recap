@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX POST Method</title>
+  <style>
+    .container{
+      max-width: 800px;
+      width: 100%;
+      margin: 100px auto;
+    }
+    .form-container {
+      width: 100%;
+    }
+    #post-form {
+      width: 100%;
+    }
+    .form-control {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .form-control label, input, textarea {
+      width: 100%;
+    }
+    .form-control label {
+      margin-bottom: 5px;
+      display: block;
+    }
+    .form-control input {
+      padding: 8px 10px;
+      outline: none;
+      border-radius: 3px;
+    }
+    #list-container {
+      list-style-type: none;
+      margin: 50px 0;
+    }
+    #list-container li {
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form id="post-form">
+        <div class="form-control">
+          <label for="title">Write the post title?</label>
+          <input type="text" name="title" id="title" placeholder="Enter post title">
+        </div>
+        <div class="form-control">
+          <label for="body">Write the post description?</label>
+          <textarea name="body" id="body" rows="10" cols="20" placeholder="Enter post description"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+
+      <ul id="list-container">
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="ajax-post.js"></script>
+</body>
+</html>

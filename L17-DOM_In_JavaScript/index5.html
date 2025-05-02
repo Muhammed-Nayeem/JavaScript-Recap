@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Request With AJAX</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #post-list {
+        margin: 20px 40px;
+      }
+      #post-list li {
+        margin-bottom: 5px;
+        border: 1px solid #eee;
+        padding: 10px;
+      }
+      #load-btn {
+        margin: 30px 20px;
+        background-color: #2e2efa;
+        color: #fff;
+        border: 0;
+        border-radius: 3px;
+        padding: 6px 8px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="post-list">
+
+    </ul>
+    <button id="load-btn">Load Posts</button>
+
+    <!--javascript files-->
+    <script src="ajax.js"></script>
+  </body>
+</html>
